@@ -1,0 +1,143 @@
+/*page*/
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62,5%; 
+  display: flex;
+  }
+  footer{
+    background-color: black;
+    display: flexbox;
+  }
+  header {
+    text-align: center;
+  }
+  
+  }
+  /*The boxes*/
+  html{
+    width: 10rem;
+    height: 10 rem;
+    background-color: #00FF00;
+    margin: 10px;
+    padding: 10px;
+    border: 200px;
+  } 
+  /*pour faire les box mettre bien l'élément sur lequel on veut que les parametres la box s'applique */
+  li{
+    font-family: 'Courier New', Courier, monospace;
+    width 10 rem;
+    height 10 rem;
+    background-color: redmargin-right: 20px;
+  ;
+  }
+  blockquote {
+      width: 10 rem;
+    height: 10 rem;
+    font-size: 1,2rem;
+    font-family: paprus, sans-serif;
+     background-color: white;
+    margin: 20 px;
+    margin-right: 20px
+    padding 20 px;
+    border 20 px solid black;
+  }
+  
+  /*polices*/
+  a{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2 rem;
+    text-shadow: yellow;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4,8rem; /*1rem=10px défini par le font size de l'élément html*/
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-shadow: red;
+    
+  }
+  h2{
+    color: black;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+  h3{
+    color: red;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1,2rem;
+  }
+  titre1 {
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50%;
+  }
+  titre1 {
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 55%;
+  }
+  p {
+    font-size:0,75rem;
+  }
+  p link {
+    color: red;
+  }
+  p :visited{
+    font-size: 20px
+    color: green;
+  
+  p focus{
+    font-size: 20px;
+    color: yellow;
+  }
+  p hover {
+    color: blue;
+    text-decoration none;
+  }
+  p :active {
+    color: orange;
+  }
+  p{
+    border: 1px;
+  }
+  
+    /*Design responsive*/
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    @media screen{maxwidth: 200px} {
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+    nav ul{
+      flex-direction: column;
+      align-items: center;
+    }
+    nav il {
+      margin: 10px 0;
+    }
+    main {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    }
+  
